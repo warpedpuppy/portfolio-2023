@@ -7,8 +7,8 @@ const Menu = ({ state, setState }) => {
 			<h1 onClick={ () => setState('who')}>warpedpuppy</h1>
 			<ul>
 				{
-					arr.map( item => {
-						return <li onClick={ () => setState(item)}><span className={`${state === item ? 'active' : ''}`} ></span>{item} </li>
+					arr.map( (item, key) => {
+						return <li key={key} onClick={ () => setState(item)}><span className={`${state === item ? 'active' : ''}`} ></span>{item} </li>
 					})
 				}
 			</ul>
