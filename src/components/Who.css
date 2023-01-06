@@ -1,0 +1,3 @@
+section#who p:nth-child(2) ~ p {
+	text-align: right;
+}
