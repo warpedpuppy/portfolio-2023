@@ -6,7 +6,7 @@ const What = () => {
 				<li>Graduated from U.C. Berkeley with Honors.</li>
 				<li>Worked for an educational game company, programming games.</li>
 				<li>Worked for an app development company, programming mobile apps.</li>
-				<li>Worked for one of the most popular sites on the internet and coded a front-end viewed by 17 million people per month.</li>
+				<li>Coded and maintained a front-end viewed by 17 million people per month.</li>
 				<li>Managed a subscription based ecommerce site built in VueJS.</li>
 				<li>Mentor at Thinkful.</li>
 				<li>Mentor at CareerFoundry.</li>
