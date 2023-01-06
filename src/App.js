@@ -1,13 +1,23 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import Menu from './components/Menu';
 import Who from './components/Who';
 import What from './components/What';
 import Where from './components/Where';
 import How from './components/How';
+import trippy from './animations/trippy';
 function App() {
 
   const [ state, setState ] = useState('who');
+  const [ loaded, setLoaded ] = useState(false);
+
+  useEffect(() => {
+	if (!loaded) {
+		trippy();
+		setLoaded(true)
+	}
+	
+  }, [])
 
   function content() {
 	if (state === 'what') {
@@ -26,6 +36,7 @@ function App() {
 		{
 			content()
 		}
+		<div id="object-pooling"></div>
     </div>
   );
 }
