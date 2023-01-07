@@ -26,6 +26,10 @@ a:hover {
 	padding: 20px;
 }
 
+.App > a {
+	text-decoration: none;
+}
+
 #object-pooling {
 	position: fixed;
 	bottom: 0;

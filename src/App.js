@@ -22,6 +22,7 @@ function App() {
 				<Route path='*' element={ <Who /> } />
 			</Routes>
 		</BrowserRouter>
+		<a rel="me" href="https://tech.lgbt/@tugboatmcpuppy">&nbsp;</a>
     </div>
   );
 }
