@@ -17,7 +17,8 @@ const Menu = ({ state, setState }) => {
 						return (
 						<li key={key} onClick={ () => goToPage(item)}>
 								<span className={`${state === item ? 'active' : ''}`} ></span> {item}
-						</li>)
+						</li>
+						)
 					})
 				}
 			</ul>
