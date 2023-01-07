@@ -7,7 +7,8 @@ const Menu = ({ state, setState }) => {
 	let location = useLocation();
 
 	useEffect(() => {
-		setState(location.pathname.slice(1));
+		let path = location.pathname.slice(1);
+		setState(path !== '' ? path : 'who');
 	}, [location, setState])
 
 	function goToPage(item) {
