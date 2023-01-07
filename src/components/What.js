@@ -7,10 +7,11 @@ const What = () => {
 				<li>Worked for an educational game company, programming games.</li>
 				<li>Worked for an app development company, programming mobile apps.</li>
 				<li>Coded and maintained a front-end viewed by 17 million people per month.</li>
-				<li>Managed a subscription based ecommerce site built in VueJS.</li>
+				<li>Built and Managed a subscription based ecommerce site.</li>
 				<li>Mentor at Thinkful.</li>
 				<li>Mentor at CareerFoundry.</li>
 				<li>Worked for a medical company, programming the front-end controls for a robot.</li>
+				<li>Completely unrelated to software enginnering, but also attended law school and passed two bars.</li>
 				<li><a href="https://github.com/warpedpuppy" rel="noopener noreferrer" target="_blank">github</a> </li>
 				<li><a href="https://www.linkedin.com/in/edward-ted-walther-98926a8/" rel="noopener noreferrer" target="_blank">linkedin</a> </li>
 			</ul>
