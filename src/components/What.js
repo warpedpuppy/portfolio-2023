@@ -11,6 +11,8 @@ const What = () => {
 				<li>Mentor at Thinkful.</li>
 				<li>Mentor at CareerFoundry.</li>
 				<li>Worked for a medical company, programming the front-end controls for a robot.</li>
+				<li>Created instructional videos for international coding academy.</li>
+				<li>Conducted multiple sponsored webinars on software development.</li>
 				<li>Completely unrelated to software enginnering, but also attended law school and passed two bars.</li>
 				<li><a href="https://github.com/warpedpuppy" rel="noopener noreferrer" target="_blank">github</a> </li>
 				<li><a href="https://www.linkedin.com/in/edward-ted-walther-98926a8/" rel="noopener noreferrer" target="_blank">linkedin</a> </li>
