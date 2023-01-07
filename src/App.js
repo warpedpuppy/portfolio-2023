@@ -16,6 +16,7 @@ function App() {
 			<Routes>
 			
 				<Route path='/' element={ <Who /> } />
+				<Route path='/who' element={ <Who /> } />
 				<Route path='what' element={ <What /> } />
 				<Route path='where' element={ <Where /> } />
 				<Route path='*' element={ <Who /> } />
