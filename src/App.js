@@ -1,31 +1,26 @@
 import { useState } from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Menu from './components/Menu';
 import Who from './components/Who';
 import What from './components/What';
 import Where from './components/Where';
-import How from './components/How';
 function App() {
 
   const [ state, setState ] = useState('who');
-  function content() {
-	if (state === 'what') {
-		return <What />;
-	} else if (state === 'where') {
-		return <Where />;
-	} else if (state === 'how') {
-		return <How />;
-	}
-	return <Who />;
-  }
-
+  
   return (
     <div className="App">
-    	<Menu setState={setState} state={state} />
-		{
-			content()
-		}
-		
+		<BrowserRouter>
+    		<Menu setState={setState} state={state} />
+			<Routes>
+			
+				<Route path='/' element={ <Who /> } />
+				<Route path='what' element={ <What /> } />
+				<Route path='where' element={ <Where /> } />
+				<Route path='*' element={ <Who /> } />
+			</Routes>
+		</BrowserRouter>
     </div>
   );
 }
