@@ -3,13 +3,12 @@ const What = () => {
 	return ( 
 		<section id='what'>
 			<ul>
-				<li>Graduated from U.C. Berkeley with Honors.</li>
+				<li>Graduated from U.C. Berkeley with Distinction.</li>
 				<li>Worked for an educational game company, programming games.</li>
 				<li>Worked for an app development company, programming mobile apps.</li>
 				<li>Coded and maintained a front-end viewed by 17 million people per month.</li>
 				<li>Built and Managed a subscription based ecommerce site.</li>
-				<li>Mentor at Thinkful.</li>
-				<li>Mentor at CareerFoundry.</li>
+				<li>Mentor at multiple technical educational companies.</li>
 				<li>Worked for a medical company, programming the front-end controls for a robot.</li>
 				<li>Created instructional videos for international coding academy.</li>
 				<li>Conducted multiple sponsored webinars on software development.</li>
